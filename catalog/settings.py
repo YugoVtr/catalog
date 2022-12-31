@@ -11,3 +11,6 @@ ITEM_PIPELINES = {
 
 REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+
+MONGO_URI = "mongodb://admin:admin@mongo:27017/"
+MONGO_DATABASE = "catalog"
